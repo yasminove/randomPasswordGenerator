@@ -1,1 +1,1 @@
-# pwd-generator
+# randomPasswordGenerator
