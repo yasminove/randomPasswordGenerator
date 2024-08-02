@@ -1,0 +1,124 @@
+body {
+    background: #161b22;
+    color: #fff;
+    font-family: "Karla", sans-serif;
+    --primary-color: #af88db;
+}
+
+#lock-icon {
+    font-size: 38px;
+}
+
+.main-container {
+    padding: 30px 30px 30px 60px;
+    width: 600px;
+    background: #22272e;
+    margin: 63px auto;
+    border-radius: 12px;
+}
+
+
+.heading {
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+.highlight {
+    color: var(--primary-color);
+    display: block;
+}
+
+.supporting-text {
+    color: #D5D4D8;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.password-section {
+    display: flex;
+}
+
+.password-section-1, .password-section-2 {
+    display: flex;
+    background: #2d333b;
+    width: 255px;
+    border-radius: 5px;
+    height: 46px;
+    margin-right: 7px;
+}
+
+textarea {
+    resize: none;
+    background: transparent;
+    border: none;
+    outline: none
+}
+
+
+#generated-password-1, #generated-password-2 {
+    width: 218px; 
+    text-align: center;
+    font-family: "Inter";
+    font-size: 17px;   
+    color: var(--primary-color);
+    margin-top: 10px;
+    font-weight: 300;
+    
+}
+
+#copy-btn-1, #copy-btn-2 {
+    background: transparent;
+    border: none;
+    color: #f9f1f07e;
+    font-size: 18px;
+    margin-top: 11px;
+    /* margin-left: 62px; */
+    cursor: pointer;
+}
+
+#copy-btn-1:hover {
+    color: var(--primary-color);
+}
+
+#copy-btn-2:hover {
+    color: var(--primary-color);
+}
+
+.options-section {
+    background: #2d333b;
+    width: 300px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+#password-range {
+    margin: 12px 0px;
+    width: 280px;
+    accent-color: #af88db;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 13px;
+    accent-color: var(--primary-color);
+    cursor: pointer;
+}
+
+#generate-passwords {
+    padding: 14px 28px;
+    border-radius: 6px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    margin-top: 40px;
+    
+}
+
+
+
