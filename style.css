@@ -122,3 +122,16 @@ input[type="checkbox"] {
 
 
 
+
+
+
+
+
+@media (max-width: 375px) {
+    
+    .main-container {
+        width: 427px;
+        margin: 91px 20px;
+        padding: 30px;
+    }
+}
